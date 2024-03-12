@@ -1,18 +1,11 @@
 <template>
-  <SceneGame />
+    <router-view />
 </template>
 
 <script>
-import SceneGame from './components/SceneGame.vue'
-
 export default {
-  name: 'App',
-  components: {
-    SceneGame
-  }
-}
+    name: "App",
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

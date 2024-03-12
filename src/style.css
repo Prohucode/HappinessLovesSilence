@@ -1,4 +1,25 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: InterLight;
+}
+
+@font-face {
+    font-family: InterMedium;
+    src: url("../public/font/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url("../public/font/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: InterSemiBold;
+    src: url("../public/font/Inter-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: InterLight;
+    src: url("../public/font/Inter-Light.ttf");
 }
