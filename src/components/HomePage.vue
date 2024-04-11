@@ -9,7 +9,7 @@
             <div class="block">
                 <div class="menu">
                     <img src="@/assets/logo.svg" width="300px" />
-                    <div class="button" @click="newGame()">Начать новую игру</div>
+                    <div class="button" @click="newGame()">Новая игра</div>
                     <div class="button" @click="url('Scene')">Продолжить</div>
                 </div>
             </div>

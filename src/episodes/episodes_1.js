@@ -34,8 +34,31 @@ let episodes_1 = {
     scene_4: {
         headband: require("../assets/scene/scene 4.png"),
         authore: "Саша",
+        dialogue: "Данил ...",
+        actions: [
+            { title: "назад", next_scene: "scene_3" },
+            { title: "далее", next_scene: "scene_5" }],
+    },
+    scene_5: {
+        headband: require("../assets/scene/scene 5.png"),
+        authore: "Глеб ...",
         dialogue: "Данил программист ... ",
-        actions: [{ title: "Познакомимся", next_scene: "scene_4" }],
+        actions: [{ title: "назад", next_scene: "scene_4" },
+        { title: "далее", next_scene: "scene_6" }],
+    },
+    scene_6: {
+        headband: require("../assets/scene/scene 6.png"),
+        authore: "Я(Саша) ...",
+        dialogue: "Данил программист ... ",
+        actions: [{ title: "назад", next_scene: "scene_5" },
+        { title: "далее", next_scene: "scene_7" }],
+    },
+    scene_7: {
+        headband: require("../assets/scene/scene 7.png"),
+        authore: "Дима ...",
+        dialogue: "Данил программист ... ",
+        actions: [{ title: "назад", next_scene: "scene_5" },
+        { title: "далее", next_scene: "scene_7" }],
     },
 }
 
