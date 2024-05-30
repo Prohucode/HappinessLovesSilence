@@ -5,4 +5,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Print Info
-        run: echo Run Action HappinessLovesSilence
+        run: echo Action HappinessLovesSilence
+      - name: Print Line
+        run: |
+          echo Hi Gleb!
+          echo Goooood!
+          
+      
